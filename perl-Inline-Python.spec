@@ -23,13 +23,13 @@ Summary(sv):	Inline::Python Perlmodul
 Summary(uk):	Модуль для Perl Inline::Python
 Summary(zh_CN):	Inline::Python Perl дё©И
 Name:		perl-Inline-Python
-Version:	0.20
-Release:	4
+Version:	0.21
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
-# Source0-md5:	b409236f93bc7c872b20c56debf97a8d
+# Source0-md5:	eee389d273c5e0fa91126b0329213c6b
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline >= 0.42
 BuildRequires:	python-devel
