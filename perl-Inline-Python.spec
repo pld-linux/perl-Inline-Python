@@ -25,7 +25,8 @@ Summary(zh_CN):	Inline::Python Perl Ä£¿é
 Name:		perl-Inline-Python
 Version:	0.20
 Release:	3
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 # Source0-md5:	b409236f93bc7c872b20c56debf97a8d
