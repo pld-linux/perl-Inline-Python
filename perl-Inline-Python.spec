@@ -23,14 +23,14 @@ Summary(uk):	Модуль для Perl Inline::Python
 Summary(zh_CN):	Inline::Python Perl дё©И
 Name:		perl-Inline-Python
 Version:	0.20
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Inline >= 0.42
 BuildRequires:	python-devel
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -45,7 +45,8 @@ Pythonie.
 %setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
-%{__perl} Makefile.PL </dev/null
+%{__perl} Makefile.PL </dev/null \
+	INSTALLDIRS=vendor 
 %{__make} OPTIMIZE="%{rpmcflags}"
 %{!?_without_tests:%{__make} test}
 
@@ -61,8 +62,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TESTED ToDo
-%{perl_sitearch}/Inline/Python.pm
-%dir %{perl_sitearch}/auto/Inline/Python
-%{perl_sitearch}/auto/Inline/Python/Python.bs
-%attr(755,root,root) %{perl_sitearch}/auto/Inline/Python/Python.so
+%{perl_vendorarch}/Inline/Python.pm
+%dir %{perl_vendorarch}/auto/Inline/Python
+%{perl_vendorarch}/auto/Inline/Python/Python.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Inline/Python/Python.so
 %{_mandir}/man3/*
