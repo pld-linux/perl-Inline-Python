@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Inline::Python
 Summary(it):	Modulo di Perl Inline::Python
 Summary(ja):	Inline::Python Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::Python ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::Python
+Summary(nb):	Perlmodul Inline::Python
 Summary(pl):	Modu³ Perla Inline::Python
 Summary(pt):	Módulo de Perl Inline::Python
 Summary(pt_BR):	Módulo Perl Inline::Python
