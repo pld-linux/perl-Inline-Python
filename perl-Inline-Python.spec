@@ -1,11 +1,29 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pname	Python
-Summary:	Inline::Python perl module
-Summary(pl):	Modu³ perla Inline::Python
+%define		pdir	Inline
+%define		pname	Python
+Summary:	Inline::Python Perl module
+Summary(cs):	Modul Inline::Python pro Perl
+Summary(da):	Perlmodul Inline::Python
+Summary(de):	Inline::Python Perl Modul
+Summary(es):	Módulo de Perl Inline::Python
+Summary(fr):	Module Perl Inline::Python
+Summary(it):	Modulo di Perl Inline::Python
+Summary(ja):	Inline::Python Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::Python ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Inline::Python
+Summary(pl):	Modu³ Perla Inline::Python
+Summary(pt):	Módulo de Perl Inline::Python
+Summary(pt_BR):	Módulo Perl Inline::Python
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Python
+Summary(sv):	Inline::Python Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Python
+Summary(zh_CN):	Inline::Python Perl Ä£¿é
 Name:		perl-Inline-Python
 Version:	0.20
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
@@ -28,7 +46,8 @@ Pythonie.
 
 %build
 perl Makefile.PL </dev/null
-%{__make}
+%{__make} OPTIMIZE="%{rpmcflags}"
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
