@@ -24,12 +24,13 @@ Summary(uk):	Модуль для Perl Inline::Python
 Summary(zh_CN):	Inline::Python Perl дё©И
 Name:		perl-Inline-Python
 Version:	0.21
-Release:	1
+Release:	1.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 # Source0-md5:	eee389d273c5e0fa91126b0329213c6b
+Patch0:		%{name}-Makefile_PL_lib64.patch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline >= 0.42
 BuildRequires:	python-devel
@@ -46,6 +47,7 @@ Pythonie.
 
 %prep
 %setup -q -n %{pdir}-%{pname}-%{version}
+%patch0 -p0
 
 %build
 %{__perl} Makefile.PL </dev/null \
