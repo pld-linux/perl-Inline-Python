@@ -23,7 +23,7 @@ Summary(uk):	Модуль для Perl Inline::Python
 Summary(zh_CN):	Inline::Python Perl дё©И
 Name:		perl-Inline-Python
 Version:	0.20
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
