@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
-%define		pname	Python
+%define		pnam	Python
 Summary:	Inline::Python Perl module
 Summary(cs):	Modul Inline::Python pro Perl
 Summary(da):	Perlmodul Inline::Python
@@ -28,7 +28,7 @@ Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eee389d273c5e0fa91126b0329213c6b
 Patch0:		%{name}-Makefile_PL_lib64.patch
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -46,7 +46,7 @@ Modu³ Inline::Python - pozwalaj±cy na pisanie procedur i klas Perla w
 Pythonie.
 
 %prep
-%setup -q -n %{pdir}-%{pname}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch0 -p0
 
 %build
