@@ -45,7 +45,7 @@ Pythonie.
 %setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
-perl Makefile.PL </dev/null
+%{__perl} Makefile.PL </dev/null
 %{__make} OPTIMIZE="%{rpmcflags}"
 %{!?_without_tests:%{__make} test}
 
