@@ -1,0 +1,24 @@
+--- Makefile.PL~	2004-07-27 07:02:03.000000000 +0200
++++ Makefile.PL	2004-08-13 20:58:36.949660480 +0200
+@@ -192,7 +192,7 @@
+ 
+   # Convert the exe into a glob where we might find a library:
+   $exe =~ s|[^/]+$||;
+-  $exe .= "../lib/python*/config/libpython*";
++  $exe .= "../lib*/python*/config/libpython*";
+ 
+   my @py_libs = 
+    (
+@@ -206,6 +206,12 @@
+    '/usr/local/ActivePython-*/lib/python*/config/libpython*.a',
+    '/usr/local/ActivePython-*/lib/python*/config/libpython*.so',
+ 
++   # support for linux@amd64 && similar
++   '/usr/lib64/libpython*.a',
++   '/usr/lib64/libpython*.so',
++   '/usr/lib64/python*/config/libpython*.a',
++   '/usr/lib64/python*/config/libpython*.so',
++
+    # Win32 support
+    'C:/Python*/libs/python*.lib',
+    'C:/Program Files/Python*/libs/python*.lib',
