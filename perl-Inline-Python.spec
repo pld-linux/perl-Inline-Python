@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	Python
 Summary:	Inline::Python Perl module
-Summary(cs):	Modul Inline::Python pro Perl
-Summary(da):	Perlmodul Inline::Python
-Summary(de):	Inline::Python Perl Modul
-Summary(es):	MÛdulo de Perl Inline::Python
-Summary(fr):	Module Perl Inline::Python
-Summary(it):	Modulo di Perl Inline::Python
-Summary(ja):	Inline::Python Perl •‚•∏•Â°º•Î
-Summary(ko):	Inline::Python ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Inline::Python
-Summary(pl):	Modu≥ Perla Inline::Python
-Summary(pt):	MÛdulo de Perl Inline::Python
-Summary(pt_BR):	MÛdulo Perl Inline::Python
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Inline::Python
-Summary(sv):	Inline::Python Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Inline::Python
-Summary(zh_CN):	Inline::Python Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Inline::Python pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::Python
+Summary(de.UTF-8):   Inline::Python Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Inline::Python
+Summary(fr.UTF-8):   Module Perl Inline::Python
+Summary(it.UTF-8):   Modulo di Perl Inline::Python
+Summary(ja.UTF-8):   Inline::Python Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Inline::Python ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Inline::Python
+Summary(pl.UTF-8):   Modu≈Ç Perla Inline::Python
+Summary(pt.UTF-8):   M√≥dulo de Perl Inline::Python
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Inline::Python
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Inline::Python
+Summary(sv.UTF-8):   Inline::Python Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Inline::Python
+Summary(zh_CN.UTF-8):   Inline::Python Perl Ê®°Âùó
 Name:		perl-Inline-Python
 Version:	0.21
 Release:	4
@@ -42,8 +42,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Inline::Python - Write Perl subs and classes in Python.
 
-%description -l pl
-Modu≥ Inline::Python - pozwalaj±cy na pisanie procedur i klas Perla w
+%description -l pl.UTF-8
+Modu≈Ç Inline::Python - pozwalajƒÖcy na pisanie procedur i klas Perla w
 Pythonie.
 
 %prep
