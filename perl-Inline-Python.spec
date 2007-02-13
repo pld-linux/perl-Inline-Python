@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	Python
 Summary:	Inline::Python Perl module
-Summary(cs.UTF-8):   Modul Inline::Python pro Perl
-Summary(da.UTF-8):   Perlmodul Inline::Python
-Summary(de.UTF-8):   Inline::Python Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Inline::Python
-Summary(fr.UTF-8):   Module Perl Inline::Python
-Summary(it.UTF-8):   Modulo di Perl Inline::Python
-Summary(ja.UTF-8):   Inline::Python Perl モジュール
-Summary(ko.UTF-8):   Inline::Python 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Inline::Python
-Summary(pl.UTF-8):   Moduł Perla Inline::Python
-Summary(pt.UTF-8):   Módulo de Perl Inline::Python
-Summary(pt_BR.UTF-8):   Módulo Perl Inline::Python
-Summary(ru.UTF-8):   Модуль для Perl Inline::Python
-Summary(sv.UTF-8):   Inline::Python Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Inline::Python
-Summary(zh_CN.UTF-8):   Inline::Python Perl 模块
+Summary(cs.UTF-8):	Modul Inline::Python pro Perl
+Summary(da.UTF-8):	Perlmodul Inline::Python
+Summary(de.UTF-8):	Inline::Python Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Inline::Python
+Summary(fr.UTF-8):	Module Perl Inline::Python
+Summary(it.UTF-8):	Modulo di Perl Inline::Python
+Summary(ja.UTF-8):	Inline::Python Perl モジュール
+Summary(ko.UTF-8):	Inline::Python 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Inline::Python
+Summary(pl.UTF-8):	Moduł Perla Inline::Python
+Summary(pt.UTF-8):	Módulo de Perl Inline::Python
+Summary(pt_BR.UTF-8):	Módulo Perl Inline::Python
+Summary(ru.UTF-8):	Модуль для Perl Inline::Python
+Summary(sv.UTF-8):	Inline::Python Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Inline::Python
+Summary(zh_CN.UTF-8):	Inline::Python Perl 模块
 Name:		perl-Inline-Python
 Version:	0.21
 Release:	4
