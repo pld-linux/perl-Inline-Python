@@ -8,13 +8,13 @@
 Summary:	Inline::Python - Write Perl subs and classes in Python
 Summary(pl.UTF-8):	Inline::Python - pisanie procedur i klas Perla w Pythonie
 Name:		perl-Inline-Python
-Version:	0.21
-Release:	4
+Version:	0.29
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Inline/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	eee389d273c5e0fa91126b0329213c6b
+# Source0-md5:	94cf975dc488f723d2727d82de92d5ea
 Patch0:		%{name}-Makefile_PL_lib64.patch
 URL:		http://search.cpan.org/dist/Inline-Python/
 BuildRequires:	perl-Inline >= 0.42
