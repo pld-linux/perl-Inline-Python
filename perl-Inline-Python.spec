@@ -71,6 +71,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README TESTED ToDo
 %{perl_vendorarch}/Inline/Python.pm
 %dir %{perl_vendorarch}/auto/Inline/Python
-%{perl_vendorarch}/auto/Inline/Python/Python.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Inline/Python/Python.so
 %{_mandir}/man3/*
